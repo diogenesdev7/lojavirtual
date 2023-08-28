@@ -1,0 +1,13 @@
+.load-icon {
+    font-size: 2rem;
+    animation: circle 3s linear infinite;
+}
+
+@keyframes circle {
+    0% {transform: rotate(0); color: goldenrod}
+    50% {
+        transform: rotate(360deg); color: black;
+    }
+    100% {transform: rotate(720deg); color: goldenrod}
+}
+
